@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica del formulario</title>
+</head>
+<body>
+    
+    <form action="/introduccionWeb/guardado.html" method="POST">
+    <label for="email">Email</label>
+    <input type="email" placeholder="Email" name="email" id="email" size="26">
+
+    <label for="password">Password</label>
+        <input type="password" placeholder="Password" name="password" id="password" size="27">
+    <br><br>
+
+    <label for="Adress">Adress</label>
+        <input type="text" placeholder="1234 Main St" size="68">
+    <br><br>
+
+    <label for="adress2">Adress 2</label>
+        <input type="text" placeholder="Apartment, studio or floor" name="adress2" id="adress2" size="66">
+    <br><br>
+
+    <label for="city">City</label>
+        <input type="text" name="city" id="city">
+    <label for="state">State</label>
+    <select name="State">
+        <option value="choose">Choose...</option>
+        <option value="jalisco">Jalisco</option>
+        <option value="colima">Colima</option>
+        <option value="nayarit">Nayarit</option>
+        <option value="tamaulipas">Tamaulipas</option> 
+    </select>
+    <label for="zip">Zip</label>
+        <input type="text" name="number" id="number">
+        <br><br>
+        <input type="checkbox">
+    <label for="checar">Check me out</label>
+    <br><br>
+        <input type="submit" value="Sign in">
+
+    <br>
+</form>
+</body>
+</html>
