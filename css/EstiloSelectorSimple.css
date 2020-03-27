@@ -1,12 +1,25 @@
 p{
     text-align: center;
-    color: red;
 }
 #id_p{
     text-align: left;
     color: blue;
 }
-.right-red{
+.right-green{
     text-align: right;
     color: green;
+}
+p.red{
+    text-align: center;
+    color: red;
+}
+.brown{
+    color: brown;
+}
+.large{
+    font-size: 25;
+}
+h1, h2{
+    text-align: right;
+    font-family: forte;
 }
