@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sombras</title>
+    <style>
+        .a{
+            text-shadow: 2px 2px red;
+        }
+
+        .b{
+            text-shadow: 0 0 3px red, 0 0 5px blue;
+        }
+
+        .example1{
+            border: solid;
+            padding: 10px;
+            box-shadow: 5px 10px grey;
+        }
+
+        .example2{
+            border: solid;
+            padding: 10px;
+            box-shadow: 5px 10px 18px red;
+        }
+
+        .example3{
+            border: solid;
+            padding: 10px;
+            box-shadow: 5px 10px 8px 10px #888888;
+        }
+
+        .example4{
+            border: solid;
+            padding: 10px;
+            box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+        }
+
+        .example5{
+            border: solid;
+            padding: 10px;
+            box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="a">Algún texto</h1>
+    <h1 class="b">Algún texto</h1>
+
+    <div class="example1"> <p>Algún texto</p> </div>
+    <br> <br>
+    <div class="example2"> <p>Caja 2 con sombra rojo</p> </div>
+    <br> <br>
+    <div class="example3"> <p>caja 3 con sombra gris</p> </div>
+    <br> <br>
+    <div class="example4"> <p>caja 4 defición de colores múltiples colores</p> </div>
+    <br> <br>
+    <div class="example5"> <p>caja 5 definición de múltiples colores degradada</p> </div>
+</body>
+</html>
