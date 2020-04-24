@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotación en Movimiento</title>
+    <style>
+        .circle{
+            width: 200px;
+            height: 200px;
+            background-color: lime;
+            transition-duration: 2s;
+            border-radius: 100px 100px 100px 100px;
+        }
+
+        .circle:hover{
+            transform: rotate(360deg);
+        }
+
+        h2{
+            text-align: center;
+            padding: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;          
+        }
+
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p><b>Pon tu cursor sobre el C&iacute;rculo y ver&aacute;z como rota</b></p>
+    <div class="circle"><h2>Estoy girando</h2></div>
+</body>
+</html>
