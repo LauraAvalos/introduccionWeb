@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transición</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: width 2s;
+        }
+
+        div:hover{
+            width: 300px;
+
+        }
+
+        .a{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            transition-property: height;
+            transition-duration: 2s;
+        }
+
+        div:hover{
+            width: 300px;
+            height: 200px;
+        }
+
+        .b{
+            width: 100px;
+            height: 100px;
+            background-color: fuchsia;
+            transition-property: height, width;
+            transition-duration: 2s;
+        }
+
+        div:hover{
+            width: 300px;
+            height: 200px;
+        }
+
+        .c{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            transition-duration: 2s;
+            transition-delay: 2s;
+        }
+
+        div:hover{
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <p>Pon el cursor sobre el contenedor rojo y mira la transición</p>
+    <div></div>
+
+    <br><br>
+
+    <p>Pon el cursor sobre el contenedor verde</p>
+    <div class="a"></div>
+
+    <br><br>
+
+    <p>Pon el cursor sobre el contenedor rosa</p>
+    <div class="b"></div>
+
+    <br><br>
+
+    <p>Pon el cursor sobre el contenedor amarillo, ahí la transición empezará a los 2 segundos</p>
+    <div class="c"></div>
+</body>
+</html>
