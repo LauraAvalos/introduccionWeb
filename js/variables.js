@@ -34,7 +34,7 @@ var textoC = "Texto con comillas 'simples' dentro de comillas dobles";
                     //listas
                     var nombre = "Laura";
                     var lista = ["Avalos", 28, nombre, true];
-                        console.log (lista[1]);
+                        console.log (lista [1]);
                         console.log (lista.length);
                         console.log (lista [lista.length-1]);
 
