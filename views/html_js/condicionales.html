@@ -7,13 +7,29 @@
 </head>
 <body>
     <script type="text/javascript">
-        var edad = Number(prompt("Ingrese su edad"));
-            if(edad > 20){
-                console.log("Tu edad es mayor de 20");
+        var edad = Number(prompt("Ingrese su edad"));            
+            if((edad => 0) && (edad < 20)){
+                console.log("Tu edad es menor de 20");
+            }
+            else if (edad >= 20 && edad <=40){
+                console.log("Tienes entre 20 o 40 años");
             }
             else{
-                console.log("Tienes 20 años o menos");
-            }
+                console.log("Tienes más de 40 años");
+            }    
+            
+                //Switch
+                var date = new Date().getDay();
+                    switch(date){
+                        case 6:
+                            document.write("Hoy es sábado");
+                            break;
+                        case 0:
+                            document.write("Hoy es domingo");  
+                            break;
+                                default:
+                                    document.write("Hoy es cualquier día, execpto sábado o domingo");                          
+                    }
     </script>
 </body>
 </html>
