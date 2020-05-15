@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento OnMouseDown&Up</title>
+</head>
+<body>
+    <div onmousedown="OnMouseDown(this);" onmouseup="OnMouseUp(this)" 
+    style="background-color: greenyellow; width: 120px; height: 20px; padding: 40px;">
+        Doom
+    </div>
+
+    <script type="text/javascript">
+        function OnMouseDown(obj){
+            obj.innerHTML = "Slayer";
+        }
+        function OnMouseUp(obj){
+            obj.innerHTML = "Doom";
+        }
+    </script>
+</body>
+</html>
